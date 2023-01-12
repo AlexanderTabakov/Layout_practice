@@ -1,0 +1,54 @@
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* без margin left шапка становится меньше размера контейнера с услугами */
+
+    margin-left: auto;
+}
+
+.list {
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    gap: 0px 14px;
+}
+
+.btn1-orange {
+    background-color: #EF7F04;
+}
+
+.btn2-blue {
+    background-color: #3B3A63;
+}
+
+.btn-item {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 19px 10px 14px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.img {
+    margin-right: 12px;
+}
