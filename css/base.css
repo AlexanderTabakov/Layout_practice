@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0px;
+    
+    /* gap: 10px; */
+    
+    row-gap: 10px;
+    
+    column-gap: 10px;
+
+    justify-content: center;
+
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2F2F51;
+    margin: 50px;
+}
