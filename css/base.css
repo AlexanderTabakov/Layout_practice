@@ -20,12 +20,18 @@
 }
 
 .title {
+    display: block;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    color: #2F2F51;
-    margin: 50px;
+    color:#2F2F51;
+    margin: 50px auto;
 }
+
+body {
+    background:#e6e6e1;
+}
+
