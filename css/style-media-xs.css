@@ -27,6 +27,7 @@
 
     #main {
         background: url(../images/windows_house/main-tab.svg);
+        width: 100%;
     }
     
 }
