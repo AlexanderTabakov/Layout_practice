@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="body">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="/css/style-media-xs.css">
+    <link rel="stylesheet" href="css/windows_house.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -18,8 +20,11 @@
 <body>
     <header class="header">
         <div class="container header-wrapper">
-            <img src="./images/header/Logo.svg" alt="">
-            
+            <div class="btn">
+                <img id="ham-menu" src="./images/ham-menu.svg" alt="">
+                <img src="./images/header/Logo.svg" alt="">
+            </div>
+
             <nav>
                 <ul class="list">
                     <li>
@@ -62,9 +67,67 @@
         </div>
     </header>
 
+    <div class="main" id="main">
+        <div class="main__content container ">
+            <div class="card-left">
+                <h1 class="main__title"> <span class="main__title--orange"> Окна Хаус - </span>
+                    Профессиональный подход к остеклению</h1>
+
+                    <div class="main__advantages">
+                        <div class="main__advantages-item">
+                        <img src="./images/windows_house/adv-item1.svg" alt="">
+                        <p class="item__description"> 
+                        Современные окна и балконные конструкции по доступным ценам
+                        </p>
+                        </div>
+
+                    <div class="main__advantages-item">
+                        <img src="./images/windows_house/adv-item2.svg" alt="">
+                        <p class="item__description"> 
+                        Квалифицированный подход к решению задач любой сложности
+                        </p>
+                    </div>
+                    
+                    <div class="main__advantages-item">
+                        <img src="./images/windows_house/adv-item3.svg" alt="">
+                        <p class="item__description"> 
+                        Гарантия высочайшего качества нашей продукции
+                        </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="right__card" id="right_card">
+                <form action="" class="form">
+                    <h2 class="form__title">
+                        Вызвать замерщика на дом
+                    </h2>
+                    <input type="text" placeholder="Представтесь пожалуйста" class="form__input">
+                    <input type="text" placeholder="Номер телефона" class="form__input">
+                    <input type="text" placeholder="E-MAIL" class="form__input">
+
+                    <div class="form__group">
+                        <input input id="checkbox" type="checkbox">
+                        <label for="checkbox">
+                            Согласен на обработку персональных данных в соответствии с <a href="#">политикой конфиденциальности</a>
+                        </label>
+                    </div>
+
+                    <button class="submit__btn">
+                        Отправить заявку
+                    </button>
+
+                    <img src="./images/windows_house/measure.svg" alt="" class="test__measure">
+
+                </form>
+
+
+            </div>
+        </div>    
+    </div>    
+
     <h1 class="title">Наши услуги</h1>        
     
-    <div class="container">
+    <div class="container" id="services">
 
         <div class="block">
             

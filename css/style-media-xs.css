@@ -1,0 +1,34 @@
+@media (max-width:992px) {
+    
+    .container {
+        justify-content: space-between;
+    }
+    .container > nav {
+        display: none;
+    }
+    
+    #ham-menu {
+        display: block;
+    }
+
+    #right_card  {
+        display: none;
+    }
+
+    #services {
+        flex-direction: column;
+        padding: 0 auto;
+        justify-content: center;
+    }
+
+    .block{
+        margin-left: 35vh;
+    }
+
+    #main {
+        background: url(../images/windows_house/main-tab.svg);
+    }
+    
+}
+
+/* центрую на глаз, не могу сообразить как выронвнить по центру */
