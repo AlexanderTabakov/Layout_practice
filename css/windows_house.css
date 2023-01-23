@@ -1,5 +1,8 @@
 .main {
-    background:url(../images/windows_house/main-bg.jpg);
+    background-image:url(../images/windows_house/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 84px;
     padding: 70px 0;
     margin-top: 10px;
 }
@@ -27,13 +30,16 @@
 
 .main__title {
     font-family: 'Roboto';
-    line-height: 28px;
-    font-size: 34px;
-    font-weight: 47;
+    line-height: 42px;
+    font-size: 36px;
+    font-weight: 100;
     color: #FFFFFF;
     margin-bottom: 36px;
+    width: 470px;
+    height: 126px;
     
 }
+
 
 .main__title--orange {
     
@@ -76,10 +82,19 @@
     width: 428px;
     height: 406px;
     padding: 43px 40px 70px 43px;
+    border-radius: 10px;
 }
 .form__title {
     text-align: center;
     margin-bottom: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+
+color: #2F2F51;
 }
 
 .form__input {
@@ -128,31 +143,55 @@
 
 /* Не срабатывают псведостили для чекбокса */
 
-input[type="checkbox"]:checked
+/* input[type="checkbox"]:checked,
 input[type="checkbox"]:not(:checked) {
     
     display: none;
+} */
+
+.form__group {
+    width: 320px;
+    padding-left: 34px;
 }
 
-input[type="checkbox"]:checked + label
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label,
 input[type="checkbox"]:not(:checked) + labeL {
     
     position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 
 }
 
-input[type="checkbox"]:checked + label:before
+input[type="checkbox"]:checked + label:before,
 input[type="checkbox"]:not(:checked) + label:before {
 
     content: "";
-
-
+    width: 25px;
+    height: 25px;
+    background: #E2E2E2;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: -35px;
+    
 }
 
-input[type="checkbox"]:checked + label:after
-input[type="checkbox"]:not(:checked) + label:after {
+input[type="checkbox"]:checked + label:after {
     content: url(../images/windows_house/checked.svg);
     position: absolute;
+    top: -4px;
+    left: -30px;
+
 
 }
 

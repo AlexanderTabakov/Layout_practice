@@ -3,7 +3,7 @@
     .container {
         justify-content: space-between;
     }
-    .container > nav {
+    .main__header {
         display: none;
     }
     
@@ -25,11 +25,18 @@
         margin-left: 35vh;
     }
 
-    #main {
-        background: url(../images/windows_house/main-tab.svg);
-        width: 100%;
+    .main {
+        background-image: url(../images/windows_house/main-bg-tab.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 84px;
+    }
+
+    .header__about {
+        justify-content: center;
     }
     
 }
+
 
 /* центрую на глаз, не могу сообразить как выронвнить по центру */
