@@ -17,13 +17,14 @@
 
     #services {
         flex-direction: column;
-        padding: 0 auto;
-        justify-content: center;
+        /* padding: 0 auto;
+        justify-content: center; */
+        align-items: center;
     }
 
-    .block{
+    /* .block{
         margin-left: 35vh;
-    }
+    } */
 
     .main {
         background-image: url(../images/windows_house/main-bg-tab.png);
