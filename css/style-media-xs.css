@@ -37,7 +37,7 @@
         justify-content: center;
     }
     
-    .card__wrapper {
+    /* .card__wrapper {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -54,7 +54,7 @@
         border-radius: 3px;
         background-color: #FFFFFF;
         gap: 0;
-    }
+    } */
 }
 
 
