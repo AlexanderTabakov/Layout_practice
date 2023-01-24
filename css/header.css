@@ -51,6 +51,11 @@
     padding: 10px 19px 10px 14px;
     font-size: 13px;
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .img {

@@ -37,6 +37,24 @@
         justify-content: center;
     }
     
+    .card__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 50px;
+        gap: 100px;
+        margin-bottom: 20px;
+    
+    }
+
+    .block__about {
+        position: relative;
+        justify-content: space-between;
+        height: 461px;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        gap: 0;
+    }
 }
 
 

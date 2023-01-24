@@ -18,9 +18,9 @@
     position: relative;
     justify-content: space-between;
     height: 461px;
-    width: 595px;
     border-radius: 3px;
     background-color: #FFFFFF;
+    gap: 0;
 }
 
 .about__icon {
@@ -56,4 +56,3 @@
     line-height: 28px;
     color: #2F2F51;
 }
-
