@@ -2,10 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    /* без margin left шапка становится меньше размера контейнера с услугами */
-
-    margin-left: auto;
+    margin: 10px auto;
 }
 
 .list {

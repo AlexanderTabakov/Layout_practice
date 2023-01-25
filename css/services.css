@@ -1,6 +1,17 @@
 
-.container {
+/* .container {
     display: flex;
+} */
+
+.block__services {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0px;
+    row-gap: 10px;    
+    column-gap: 10px;
+    justify-content: center;
+
 }
 
 .block {

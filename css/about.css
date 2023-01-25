@@ -1,43 +1,39 @@
+.header__about {
+    display: flex;
+    margin: 10px auto;
+}
+
 .active__button {
     background-color: #EF7F04;
     border-radius: 3px;
     padding: 8px;
 }
 
-/* На всякий случай скопировал аналогичные стили из блока услуг в блок about */
-
-.container {
+/* .content__about {
     display: flex;
+    border-radius: 5px;
+    border: black solid;
+    margin: 10px auto;
+    background-color: #FFFFFF;
 }
 
-.header__about {
-    margin-bottom: 20px;
-}
+
 
 .block__about {
     position: relative;
-    justify-content: space-between;
-    height: 461px;
-    border-radius: 3px;
-    background-color: #FFFFFF;
+    width: 50%;
     gap: 0;
 }
 
 .about__icon {
-    margin: 46px 50px;
+    width: 150px;
+    margin: 30px;
 }
 
-/* .block__image--about {    
-    width: 100%;
-    height: 100%;
-    filter: none;
-    margin: 46px 50px;
-} */
 
 .block_about__text {
     position: absolute;
     width: 300px;
-    margin: 60px 50px 0px 248px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -46,13 +42,39 @@
     color: #2F2F51;
 }
 
-.about__title {
-    margin:  auto 20px; 
-    width: 200px;
+.poster__about {
+    width: 50%;
+} */
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card > .description {
+    width: 50%;
+    position: relative;
+}
+
+.card > .description > .logo {
+    width: 150px;
+    margin: 30px;
+
+}
+
+.card > .description > p {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 350px;
+    font-size: 1em;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #2F2F51;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.card > .poster {
+    width: 50%;
 }
