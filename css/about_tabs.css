@@ -3,15 +3,16 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
-    gap: 100px;
+    row-gap: 60px;
     flex-wrap: wrap;
     margin: 20px auto;
+    padding-left: 15px;
 
 }
 
 .card__about {
     display: flex;
-    width: 300px;
+    /* width: 300px; */
     height: 111px;
     justify-content: space-between;
     gap: 10px;
@@ -29,7 +30,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 26px;
     text-transform: uppercase;
     color: #2F2F51;
@@ -41,16 +42,21 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 26px;
     text-transform: uppercase;
     color: #2F2F51;
 
+}
+
+.card__about > img {
+
+    /* width: 80px; */
 
 }
 
 .btn-about {
-    margin:20px auto ;
+    margin:35px auto ;
 }
 
 

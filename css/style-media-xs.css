@@ -1,4 +1,4 @@
-@media screen and (max-width:992px) {
+@media (max-width:992px) {
     
     .container {
         /* justify-content: space-between; */
@@ -24,15 +24,9 @@
     }
 
     #services {
-        flex-direction: column;
-        /* padding: 0 auto;
-        justify-content: center; */
+        flex-direction: column;        
         align-items: center;
     }
-
-    /* .block{
-        margin-left: 35vh;
-    } */
 
     .main {
         background-image: url(../images/windows_house/main-bg-tab.png);
@@ -54,6 +48,9 @@
         width: 100px;
     }
 
+    .card__wrapper {
+        column-gap: 60px;
+    }
 
 
     /* .card__wrapper {
