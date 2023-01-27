@@ -29,7 +29,26 @@
 .link {
     color: #000000;
     text-decoration: none;
+    position: relative;
 }
+
+.header__btn:hover {
+    color: #EF7F04;
+    border-top: #EF7F04 3px solid;
+    margin-top: 10px;
+}
+
+.header__btn {
+    padding-top: 29px;
+}
+
+/* .header__btn:hover::after {
+    position: absolute;
+    content: url(../images/header/top-line.svg);
+    top: -43px;
+    left: -15px;
+    border-top: #EF7F04 5px solid;
+} */
 
 .btn {
     display: flex;
