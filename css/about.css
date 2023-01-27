@@ -3,48 +3,21 @@
     margin: 10px auto;
 }
 
-.active__button {
+
+
+
+.active__button:hover {
     background-color: #EF7F04;
     border-radius: 3px;
     padding: 8px;
 }
 
-/* .content__about {
-    display: flex;
-    border-radius: 5px;
-    border: black solid;
-    margin: 10px auto;
-    background-color: #FFFFFF;
-}
-
-
-
-.block__about {
-    position: relative;
-    width: 50%;
-    gap: 0;
-}
-
-.about__icon {
-    width: 150px;
-    margin: 30px;
-}
-
-
-.block_about__text {
-    position: absolute;
-    width: 300px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2F2F51;
-}
-
-.poster__about {
-    width: 50%;
+/* .header__about > .header__wrapper > .list > a:hover {
+    background: orange;
+    
 } */
+
+
 
 .card {
     display: flex;

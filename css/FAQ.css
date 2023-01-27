@@ -4,7 +4,7 @@
     border: #EF7F04;
     border-radius: 7px;
     text-align: center;
-    padding: 15px 100px;
+    padding: 60px 100px;
     margin-top: -11px;
 }
 
@@ -15,7 +15,8 @@
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    margin: 20px auto;
+    margin: 30px auto;
+    margin-top: 0;
 }
 
 .details-block {
@@ -70,7 +71,7 @@ summary:after {
 }
 
 details[open] > summary:after {
-    transform: rotate(180deg);
+    transform: rotate(180deg);    
 }
 
 details:hover > summary:after {
