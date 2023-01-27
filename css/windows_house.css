@@ -59,17 +59,6 @@
 
 }
 
-/* не применятеся псевдоэлемент */
-
-/* .main__title::first-line {
-
-    display: block;
-    margin-bottom: 5px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #EF7F04;
-
-} */
 
 .item__description {
     font-family: 'Roboto';
@@ -80,9 +69,6 @@
     color: #FFFFFF;
 }
 
-/* .right__card {
-
-} */
 
 .form {
     background-color: #FFFFFF;
@@ -141,6 +127,12 @@ color: #2F2F51;
     color: #FFFFFF;
     /* не смог выровнить по центру */
 }
+
+.submit__btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
 
 .test__measure {
     position: absolute;

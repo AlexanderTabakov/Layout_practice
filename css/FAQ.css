@@ -1,0 +1,78 @@
+.faq {
+    height: 800px;
+    background-color:  #EF7F1A;
+    border: #EF7F04;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 100px;
+    margin-top: -11px;
+}
+
+.title__faq {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 20px auto;
+}
+
+.details-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+details {
+    background-color: #EEEEF3;
+    padding: 30px 10px 30px 20px ;
+    width: 998px;
+    border-radius: 3px;
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F51;
+}
+
+details > p {
+    padding: 20px;
+    color: black;
+
+}
+
+details:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #EF7F04;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3)
+}
+
+summary {
+    list-style: none;
+    text-align: left;
+}
+
+summary:after {
+    content:"";
+    background-image: url(../images/FAQ/open-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 28px 14px;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    position: absolute;
+    right: 25px;
+}
+
+details[open] > summary:after {
+    transform: rotate(180deg);
+}
+
+details:hover > summary:after {
+    filter: invert(57%) sepia(57%) saturate(4891%) hue-rotate(9deg) brightness(104%) contrast(97%);
+}

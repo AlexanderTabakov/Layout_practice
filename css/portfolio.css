@@ -1,0 +1,14 @@
+.portfolio {
+    /* display: flex; */
+    background-color: white;
+    border-radius: 3px;
+    height: 410px;
+    padding-top: 10px;
+
+}
+
+.portfolio__card {
+    display: flex;
+    justify-content: center;
+    column-gap: 44px;
+}
