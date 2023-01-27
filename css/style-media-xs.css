@@ -2,7 +2,7 @@
     
     .container {
         /* justify-content: space-between; */
-        margin: 5px auto;
+        /* margin: 5px auto; */
         width: auto;
     }
     .main__header {
@@ -49,28 +49,17 @@
     }
 
     .card__wrapper {
-        column-gap: 60px;
+        column-gap: 40px;
     }
 
-
-    /* .card__wrapper {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 50px;
-        gap: 100px;
-        margin-bottom: 20px;
-    
+    #portfolio__img-4 {
+        display: none;
     }
 
-    .block__about {
-        position: relative;
-        justify-content: space-between;
-        height: 461px;
-        border-radius: 3px;
-        background-color: #FFFFFF;
-        gap: 0;
-    } */
+    details  {
+        width: 800px;
+    }
+
 }
 
 

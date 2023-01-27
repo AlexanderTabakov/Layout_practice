@@ -59,4 +59,10 @@
     margin:35px auto ;
 }
 
+.btn-about:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
 
